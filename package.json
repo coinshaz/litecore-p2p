@@ -1,6 +1,6 @@
 {
   "name": "unitedcore-p2p",
-  "version": "1.1.21",
+  "version": "1.1.22",
   "description": "Interface to the unitedcoin P2P network for unitedcore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
