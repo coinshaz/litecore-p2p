@@ -3,23 +3,23 @@
 Litecore P2P
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/litecore-p2p.svg?style=flat-square)](https://www.npmjs.org/package/litecore-p2p)
-[![Build Status](https://img.shields.io/travis/litecoin-project/litecore-p2p.svg?branch=master&style=flat-square)](https://travis-ci.org/litecoin-project/litecore-p2p)
-[![Coverage Status](https://img.shields.io/coveralls/litecoin-project/litecore-p2p.svg?style=flat-square)](https://coveralls.io/r/litecoin-project/litecore-p2p?branch=master)
+[![NPM Package](https://img.shields.io/npm/v/unitedcore-p2p.svg?style=flat-square)](https://www.npmjs.org/package/unitedcore-p2p)
+[![Build Status](https://img.shields.io/travis/coinshaz/unitedcore-p2p.svg?branch=master&style=flat-square)](https://travis-ci.org/coinshaz/unitedcore-p2p)
+[![Coverage Status](https://img.shields.io/coveralls/coinshaz/unitedcore-p2p.svg?style=flat-square)](https://coveralls.io/r/coinshaz/unitedcore-p2p?branch=master)
 
-`litecore-p2p` adds [Litecoin protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Litecore.
+`unitedcore-p2p` adds [Litecoin protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Litecore.
 
-See [the main litecore repo](https://github.com/litecoin-project/litecore) for more information.
+See [the main unitedcore repo](https://github.com/coinshaz/unitedcore) for more information.
 
 ## Getting Started
 
 ```sh
-npm install litecore-p2p
+npm install unitedcore-p2p
 ```
 In order to connect to the Litecoin network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
 
 ```javascript
-var Peer = require('litecore-p2p').Peer;
+var Peer = require('unitedcore-p2p').Peer;
 
 var peer = new Peer({host: '127.0.0.1'});
 
@@ -45,15 +45,15 @@ peer.on('tx', function(message) {
 });
 ```
 
-Take a look at the [litecore guide](http://litecore.io/guide/peer.html) on the usage of the `Peer` class.
+Take a look at the [unitedcore guide](http://unitedcore.io/guide/peer.html) on the usage of the `Peer` class.
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/litecoin-project/litecore/blob/master/CONTRIBUTING.md) on the main litecore repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/coinshaz/unitedcore/blob/master/CONTRIBUTING.md) on the main unitedcore repo for information about how to contribute.
 
 ## License
 
-Code released under [the MIT license](https://github.com/litecoin-project/litecore/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/coinshaz/unitedcore/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
 Copyright 2016 The Litecore Core Developers

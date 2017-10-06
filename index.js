@@ -1,4 +1,4 @@
-var litecore = require('litecore-lib');
-litecore.P2P = require('./lib');
+var unitedcore = require('unitedcore-lib');
+unitedcore.P2P = require('./lib');
 
-module.exports = litecore.P2P;
+module.exports = unitedcore.P2P;
