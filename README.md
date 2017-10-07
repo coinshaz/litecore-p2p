@@ -1,13 +1,13 @@
-<img src="http://bitcore.io/css/images/bitcore-p2p.svg" alt="litecore payment protocol" height="35" width="102">
+<img src="http://bitcore.io/css/images/bitcore-p2p.svg" alt="unitedcore payment protocol" height="35" width="102">
 
-Litecore P2P
+Unitedcore P2P
 =======
 
 [![NPM Package](https://img.shields.io/npm/v/unitedcore-p2p.svg?style=flat-square)](https://www.npmjs.org/package/unitedcore-p2p)
 [![Build Status](https://img.shields.io/travis/coinshaz/unitedcore-p2p.svg?branch=master&style=flat-square)](https://travis-ci.org/coinshaz/unitedcore-p2p)
 [![Coverage Status](https://img.shields.io/coveralls/coinshaz/unitedcore-p2p.svg?style=flat-square)](https://coveralls.io/r/coinshaz/unitedcore-p2p?branch=master)
 
-`unitedcore-p2p` adds [Litecoin protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Litecore.
+`unitedcore-p2p` adds [Unitedcoin protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Unitedcore.
 
 See [the main unitedcore repo](https://github.com/coinshaz/unitedcore) for more information.
 
@@ -16,7 +16,7 @@ See [the main unitedcore repo](https://github.com/coinshaz/unitedcore) for more 
 ```sh
 npm install unitedcore-p2p
 ```
-In order to connect to the Litecoin network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
+In order to connect to the Unitedcoin network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
 
 ```javascript
 var Peer = require('unitedcore-p2p').Peer;
@@ -56,4 +56,4 @@ See [CONTRIBUTING.md](https://github.com/coinshaz/unitedcore/blob/master/CONTRIB
 Code released under [the MIT license](https://github.com/coinshaz/unitedcore/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
-Copyright 2016 The Litecore Core Developers
+Copyright 2016 The Unitedcore Core Developers

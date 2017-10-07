@@ -13,7 +13,7 @@
   "contributors": [
     {
       "name": "Charlie Lee",
-      "email": "coblee@litecoin.org"
+      "email": "coblee@unitedcoin.org"
     },
     {
       "name": "Yemel Jardi",
@@ -48,7 +48,7 @@
     }
   ],
   "keywords": [
-    "litecoin",
+    "unitedcoin",
     "unitedcore"
   ],
   "repository": {
