@@ -1,6 +1,6 @@
 {
   "name": "unitedcore-p2p",
-  "version": "1.1.22",
+  "version": "1.1.23",
   "description": "Interface to the unitedcoin P2P network for unitedcore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
@@ -56,7 +56,7 @@
     "url": "https://github.com/coinshaz/unitedcore-p2p.git"
   },
   "dependencies": {
-    "unitedcore-lib": "^0.1.1",
+    "unitedcore-lib": "^0.13.21",
     "bloom-filter": "^0.2.0",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
